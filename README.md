@@ -22,6 +22,8 @@ A tiny joke library that implements intentionally terrible sorting algorithms.
   - One must imagine Array#sort happy
 - `sleepSort`
   - Sort an array of numbers by sleeping using `setTimeout` (async)
+- `gaslightSort`
+  - Returns a sorted array and then randomly messes with your original array
 
 ## Contributing
 
@@ -30,7 +32,6 @@ Feel free to contribute with anything including documentation/code fixes or new 
 ## TODO
 
 - Enterprise Sort
-- gaslight sort: called by reference. It returns a different, pre-sorted list. It then proceeds to change the values stored in memory at random times
 - microservices sort: make an API request to compare each pair of values
 - observer sort: logging the array will show the sorted array but it will keep being unsorted (is this even possible with js)
 
