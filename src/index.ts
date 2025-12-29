@@ -1,5 +1,6 @@
 export * from "./sorters/1984-sort.js"
 export * from "./sorters/bogosort.js"
+export * from "./sorters/gaslight-sort.js"
 export * from "./sorters/marx-sort.js"
 export * from "./sorters/miracle-sort.js"
 export * from "./sorters/nihilist-sort.js"
